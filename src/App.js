@@ -34,7 +34,7 @@ export default function App() {
             paddingTop={10}
             marginBottom={5}
           >
-            WDD LAB PROGRAMS
+            R LAB PROGRAMS
           </Typography>
         </main>
 
@@ -53,7 +53,7 @@ export default function App() {
 
       <Grid container spacing={2} paddingX={20}>
         {Data.map((item) => (
-          <Grid item xs={6}>
+          <Grid item md={12} xl={6}>
             <Code title={item.title} code={item.code}/>
           </Grid>
         ))}
