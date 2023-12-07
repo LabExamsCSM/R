@@ -37,11 +37,11 @@ function Code({title, code}) {
             >
               {title}
             </Typography>
-            <Typography color="primary" variant="body2">
+            {/* <Typography color="primary" variant="body2">
               <SyntaxHighlighter language="html" style={vscDarkPlus}>
                 {code}
               </SyntaxHighlighter>
-            </Typography>
+            </Typography> */}
           </CardContent>
           <CardActions>
             <Button variant="contained" color="primary" onClick={handleCopyClick}>
