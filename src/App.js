@@ -51,7 +51,7 @@ export default function App() {
 
       </ThemeProvider>
 
-      <Grid container spacing={2} paddingX={20}>
+      <Grid container spacing={2}>
         {Data.map((item) => (
           <Grid item md={12} xl={6}>
             <Code title={item.title} code={item.code}/>
